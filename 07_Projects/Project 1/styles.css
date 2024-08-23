@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+.span
+{
+  display: block;
+}
+
+.button{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+
+}
+#grey{
+  background-color: grey;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+#green{
+  background-color: rgb(5, 212, 5);
+}
+
+#blue{
+  background-color: rgb(60, 189, 245);
+}
+
+#purple{
+  background-color: purple;
+}
