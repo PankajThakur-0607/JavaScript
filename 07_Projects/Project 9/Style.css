@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+
+
+.container{
+    height: 70vh;
+    display:  flex;
+    gap: 1.5vmin ;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin ;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5) ;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #fefff8;
+}
+
+#btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #cceb2f;
+    border: 2px solid black;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    background-color: #cceb2f;
+    border: 2px solid black;
+}
+.msg-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;  
+    align-items: center;
+    height: 100vmin;
+    margin-top: 2rem;
+
+}
+.hide{
+    display: none ;
+}
+.show-msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
