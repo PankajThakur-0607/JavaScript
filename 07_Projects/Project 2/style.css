@@ -1,0 +1,35 @@
+*{
+    margin: 5px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #797978;
+    border: 8px solid yellow ;
+}
+
+#results {
+    font-size: 35px;
+    margin: 25px;
+    color: rgb(241, 241, 241);
+    text-align: center;
+  }
+
+#body-detail{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+    color: rgb(241, 241, 241);
+}
+
+input[type = 'text']{
+    background-color: yellow;
+}
+
+
+
+
